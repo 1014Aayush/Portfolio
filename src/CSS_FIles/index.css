@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+
+  .ok{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer
+  {
+    margin-top: -10px;
+    width: 100%;
+    height:95vh;
+    background-image: url("D:\Code\Portfolio Website\Portfolio\public\images\Default_bluish_themed_background_trees_mountains_hills_and_sky_1_19142861-6745-4265-b0b9-8de9360f2b8e_1.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* App Component Styling */
+  .Wrapper {
+    width: 100%;
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    gap:10rem;
+    background-image: url("/images/Default_bluish_themed_background_trees_mountains_hills_and_sky_1_19142861-6745-4265-b0b9-8de9360f2b8e_1.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    /* Add additional styling as needed */
+  }
+  
+  .Middle {
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; /* Middle takes up the full height */
+  }
+  
+  .Texts {
+    text-shadow: -3px 2px 2px rgba(24, 105, 186, 0.507);
+    font-size: 3.5rem;
+  }
+
+  .secondline{
+    padding: 10px;
+    display: flex;
+    gap:1.7rem;
+  }
+  
+  .line{
+    width: 38%;
+    height: 12px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow:-3px 2px 2px rgba(24, 105, 186, 0.507);
+    ;
+  }
+
+  h2 {
+    margin-top: -1rem;
+    text-shadow: 2px 2px 2px rgba(24, 105, 186, 0.507);
+    font-size: 2rem;
+  }
+  
+  .trees {
+    position: absolute;
+    top:7vh;
+    width: 100%;
+  }
+  
+  
+  
+  /* NavBar Styling */
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 10vh;
+    /* Add additional styling as needed */
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8vh;
+    /* Add additional styling as needed */
+  }
+  
+  ul li {
+    list-style-type: none;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  ul li:hover {
+    background-color: rgba(18, 87, 199, 0.719);
+    padding: 7px 13px;
+    border-radius: 30px;
+    cursor: pointer;
+    /* Add additional styling as needed */
+  }
+  
