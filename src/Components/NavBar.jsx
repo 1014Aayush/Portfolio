@@ -6,9 +6,9 @@ export default function NavBar() {
       <h1>Logo</h1>
       <ul>
         <li>Home</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Socials</li>
+        <li>Explore</li>
+        <li>Blogs</li>
+        <li>Profile</li>
       </ul>
     </div>
   );

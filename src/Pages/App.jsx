@@ -28,22 +28,13 @@ export default function App() {
         <div className="Middle">
           <div className="Texts">
             <h1 style={{ marginTop: margin }} id="name">
-              Aayush Pokhrel
+              Aayush Pokhrel{" "}
             </h1>
             <div className="secondline">
               <div className="line"></div>
-              <h2>Designer Developer Enthusiast</h2>
+              <h2>Learning</h2>
             </div>
           </div>
-        </div>
-
-        <div className="Footer">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            temporibus rerum eveniet dolorum mollitia animi, assumenda nemo esse
-            at tenetur natus dolorem laboriosam repudiandae corporis debitis
-            consectetur? Magni, ullam facilis.
-          </p>
         </div>
       </div>
     </>
